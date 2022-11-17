@@ -1,7 +1,7 @@
 body {
     margin: 0;
     margin-top: 50px;
-    font-family: sans-serif;
+    font-family: 'Allerta Stencil';
 }
 
 header {
@@ -30,11 +30,11 @@ header li {
 
 section {
     height: 100vh;
-    border: 1px solid black;
+    border: none !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     
     background-size: cover; /* Add this line */
     background-position: center center; /* Add this line */
@@ -71,14 +71,14 @@ header a {
 
 /* Add everything below here */
 
-#hero {
+#homie {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://scontent-lga3-2.xx.fbcdn.net/v/t1.18169-9/17757289_10206614738567226_6905793805799608875_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_ohc=FZOi3VsM05kAX8K7II2&_nc_ht=scontent-lga3-2.xx&oh=00_AfAQgM3516xr-upCyCaVG3AMaRBclh9cLYclUY1tzk7dHg&oe=639BDABC');
 }
 
 #about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://scontent-lga3-2.xx.fbcdn.net/v/t31.18172-8/20286829_10207420585952907_1803905751408992101_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=19026a&_nc_ohc=FpbOTgVxjkcAX_WLiXv&_nc_ht=scontent-lga3-2.xx&oh=00_AfBis2CB_3Y8tDyiTOHsO51NCO5-HQf07i0TSDOkAKXdhA&oe=639BDD94');
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://scontent-lga3-2.xx.fbcdn.net/v/t1.18169-9/17757289_10206614738567226_6905793805799608875_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_ohc=FZOi3VsM05kAX8K7II2&_nc_ht=scontent-lga3-2.xx&oh=00_AfAQgM3516xr-upCyCaVG3AMaRBclh9cLYclUY1tzk7dHg&oe=639BDABC');
 }
 
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://scontent-lga3-2.xx.fbcdn.net/v/t31.18172-8/17359466_10206537634559674_343109207856225400_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=19026a&_nc_ohc=WjGTGC-Oh8EAX84Ssi4&_nc_ht=scontent-lga3-2.xx&oh=00_AfCeogEB0DGeB6eyQpzEw8mt1zsjvY7McCfAQuJHC41Jfw&oe=639BD06C');
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://scontent-lga3-2.xx.fbcdn.net/v/t1.18169-9/17757289_10206614738567226_6905793805799608875_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_ohc=FZOi3VsM05kAX8K7II2&_nc_ht=scontent-lga3-2.xx&oh=00_AfAQgM3516xr-upCyCaVG3AMaRBclh9cLYclUY1tzk7dHg&oe=639BDABC');
 }
